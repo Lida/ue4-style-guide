@@ -413,7 +413,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 ### 2e1 Example Project Content Structure
 <pre>
 |-- Content
-    |-- <a href="#2.2">GenericShooter</a>
+    |-- <a href="#2.2">_GenericShooter</a>
         |-- Art
         |   |-- Industrial
         |   |   |-- Ambient
@@ -515,7 +515,7 @@ Using other characters outside `a-z`, `A-Z`, and `0-9` such as `@`, `-`, `_`, `,
 <a name="structure-top-level"><a>
 ### 2.2 Use A Top Level Folder For Project Specific Assets ![#](https://img.shields.io/badge/lint-supported-green.svg)
 
-All of a project's assets should exist in a folder named after the project. For example, if your project is named 'Generic Shooter', _all_ of it's content should exist in `Content/GenericShooter`.
+All of a project's assets should exist in a folder named after the project. For example, if your project is named 'Generic Shooter', _all_ of it's content should exist in `Content/_GenericShooter`. The underscore is to make the project easier to find as you import additional assets from the marketplace.
 
 > The `Developers` folder is not for assets that your project relies on and therefore is not project specific. See [Developer Folders](#2.3) for details about this.
 
