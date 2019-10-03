@@ -6,9 +6,9 @@ Heavily inspired by the [Airbnb Javascript Style Guide](https://github.com/airbn
 
 ## TL;DR
 
-1. Put all assets in main project folder under **Content/ProjectName** and the appropriate sub folder.
+1. Put all assets in main project folder under **Content/_ProjectName** and the appropriate sub folder.
 2. Follow [naming convention](#anc) for all created content
-3. Do not modify anything under **Content/ProjectName/Core** unless you are the owner. Create a child blueprint and tweak instead.
+3. Do not modify anything under **Content/_ProjectName/Core** unless you are the owner. Create a child blueprint and tweak instead.
 4. Use your own **Content/Developer/YourName** folder for testing/iterating assets that aren't meant for use publicly.
 5. Follow best practices for specific asset type in the guide.
 
